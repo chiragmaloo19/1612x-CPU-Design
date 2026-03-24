@@ -1,2 +1,23 @@
 # 1612x-CPU-Design
-A functional 16-bit Central Processing Unit (CPU) design based on Morris Mano’s architecture. Built using Logisim, this project implements a complete fetch-decode-execute cycle with a 25-instruction set, 16-bit common bus, and integrated ALU.
+AIM:
+To design and implement a 16-bit CPU based on Morris Mano’s architecture using Logisim.
+
+TASKS COMPLETED:
+1. Designed 16-bit and 12-bit registers (AR, PC, DR, AC, IR, TR).
+2. Implemented a 16-bit Common Bus and ALU.
+3. Designed the Sequence Counter and Control Unit logic.
+4. Integrated sub-circuits into a functional Main Circuit.
+
+TECHNICAL SPECIFICATIONS:
+- RAM: 4096x16
+- Instruction Set: 25 total (Memory-Reference & Register-Reference)
+- Control: Timing Signal Generator (T0 to T15)
+- Logic: RTL-based micro-operations
+
+HOW TO USE:
+Load the .circ file into Logisim. The simulation supports the fetch-decode-execute 
+cycle by cycling the system clock.
+
+AUTHORS:
+Chirag Maloo, Milav Patel, Naitik Jadav, Sumit Mali, Jwanil Modi.
+Pandit Deendayal Energy University (PDEU).
