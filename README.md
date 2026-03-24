@@ -17,3 +17,5 @@ TECHNICAL SPECIFICATIONS:
 HOW TO USE:
 Load the .circ file into Logisim. The simulation supports the fetch-decode-execute 
 cycle by cycling the system clock.
+AUTHORS:
+Chirag Maloo, Milav Patel, Naitik Jadav, Sumit Mali, Jwanil Modi.
